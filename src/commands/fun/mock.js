@@ -29,10 +29,8 @@ class mock {
         return newStr;
     }
 
-    const message = args.join(" ");
-
     msg.delete();
-    msg.channel.send(spongebobText(message));
+    msg.channel.send(spongebobText(args.join(" ")));
   }
 }
 

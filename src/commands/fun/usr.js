@@ -39,7 +39,7 @@ class usr {
 
       let onHighest = member.roles.highest;
       let onStatus = statuses[member.user.presence.status];
-      let onPlatform = platforms[member.user.presence.clientStatus];
+      let onPlatform = platforms[Object.keys(member.user.presence.clientStatus)];
 
       let onUser = new Discord.MessageEmbed()
       .setColor(colors.blank)

@@ -43,7 +43,6 @@ class usr {
 
       let onUser = new Discord.MessageEmbed()
       .setColor(colors.blank)
-      .setAuthor(member.user.username, member.user.displayAvatarURL({size: 256, format: "png", dynamic: true}))
       .setThumbnail(member.user.displayAvatarURL({size: 256, format: "png", dynamic: true}))
 
       .addField("Mention", onMention, true)

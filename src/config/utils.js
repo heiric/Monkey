@@ -2,7 +2,7 @@ module.exports = {
     resolveMember: function(guild, content) {
       guild.members.fetch();
       let member;
-      let members = guild.members.cache.get;
+      let members = guild.members.cache;
   
       if (members.has(content)) member = members.get(content);
       else if (members.find(m => m.user.username.toLowerCase() === content.toLowerCase()))

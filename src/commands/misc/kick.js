@@ -30,7 +30,7 @@ class kick {
     if (!msg.guild.me.permissions.has("KICK_MEMBERS")) {
         let onDenied = new Discord.MessageEmbed()
         .setColor(colors.blank)
-        .setDescription("I do not have permission to kick members");
+        .setDescription("I am missing permissions to Kick Members");
         return msg.channel.send(onDenied);
     }
 

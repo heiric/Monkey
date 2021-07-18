@@ -30,7 +30,7 @@ class ban {
     if (!msg.guild.me.permissions.has("BAN_MEMBERS")) {
         let onDenied = new Discord.MessageEmbed()
         .setColor(colors.blank)
-        .setDescription("I do not have permission to ban members");
+        .setDescription("I am missing permissions to Ban Members");
         return msg.channel.send(onDenied);
     }
 

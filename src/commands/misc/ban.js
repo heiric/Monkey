@@ -46,7 +46,7 @@ class ban {
     if (!onMember.bannable) {
         let onDenied = new Discord.MessageEmbed()
         .setColor(colors.blank)
-        .setDescription("This member cannot be bannable");
+        .setDescription("This member cannot be banned");
         return msg.channel.send(onDenied);
     }
 

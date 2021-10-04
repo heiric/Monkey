@@ -7,7 +7,7 @@ class ban {
     this.name = "ban";
     this.aliases = [];
     this.description = "Ban a member";
-    this.usage = ["ban <member> [reason]"];
+    this.usage = ["ban <member>", "ban <member> [reason]"];
     this.category = "Miscellaneous";
   }
 

@@ -7,7 +7,7 @@ class nickname {
     this.name = "nickname";
     this.aliases = ["nick"];
     this.description = "Set/reset your nickname";
-    this.usage = ["nickname [any]"];
+    this.usage = ["nickname", "nickname [any]"];
     this.category = "Category";
   }
 

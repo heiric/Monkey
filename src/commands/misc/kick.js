@@ -7,7 +7,7 @@ class kick {
     this.name = "kick";
     this.aliases = [];
     this.description = "Kick a member";
-    this.usage = ["kick <member> [reason]"];
+    this.usage = ["kick <member>", "kick <member> [reason]"];
     this.category = "Miscellaneous";
   }
 
